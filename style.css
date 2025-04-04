@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://media.istockphoto.com/id/1138005836/photo/aerial-view-of-la-jolla-little-coastline-city-california-usa.jpg?s=612x612&w=0&k=20&c=vF32BaT0rKoQZF9YHzb8tr9Pr0mQp1pJtlc8_9H3O94=");
+}
+
+
+.outfit-font {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+.container-principal {
+    background-color: rgb(19, 19, 19);
+    opacity: 0.9;
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;
+    size: 50px;
+}
+
+#cep {
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+h3 {
+    margin-top: 7px;
+}
+input {
+    width: 100%;
+}
+
+#confirm {
+    color: white;
+    background-color: rgb(124, 45, 228);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
